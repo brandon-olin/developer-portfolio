@@ -19,7 +19,7 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-// import "@fortawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/js/all";
 
 console.log('Hello World from Webpacker')
 
@@ -30,10 +30,10 @@ document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
 });
 
-// import { loadDynamicBannerText } from '../components/banner';
+import { loadDynamicBannerText } from '../components/banner';
 
-// document.addEventListener('turbolinks:load', () => {
-//   // Call your JS functions here
-//   // [...]
-//   loadDynamicBannerText();
-// });
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+  loadDynamicBannerText();
+});
