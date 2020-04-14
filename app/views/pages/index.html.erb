@@ -12,3 +12,76 @@
     </div>
   </div>
 </div>
+<a name="about"></a>
+<div class="container">
+  <div class="about-section">
+    <h3>About</h3>
+    <div class="about-contents">
+      <p>Born in the frigid tundra of Buffalo, NY, the long winters indoors left plenty of time for fiddling with technology. I showed a knack for computers and spent much of my early years building gaming rigs and learning their ins and outs.</p>
+      <p>I ended up pursuing a business degree and working various jobs in the field, eventually going down the path of entrepreneurship and location independence. This culminated in 3 years spent living and working remotely in South America, Europe, and Asia.</p>
+      <p>Now that I’ve finished the Le Wagon Ruby on Rails coding bootcamp I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
+    </div>
+  </div>
+</div>
+<a name="portfolio"></a>
+<div class="portfolio">
+  <div class="container">
+    <div class="portfolio-header">
+      <h2>Portfolio</h2>
+      <p>Projects completed during the Le Wagon Bootcamp and since.</p>
+    </div>
+    <div class="project-grid">
+      <%= link_to 'http://www.sustainable-app.com/' do %>
+        <div class="project-card">
+          <img src="sustainable.png" class="project-image">
+          <div class="project-description">
+            <p class="project-card-text">SustainABLE: Job board for entry level developers and mission driven companies.</p>
+          </div>
+        </div>
+      <% end %>
+      <%= link_to 'https://animal-kingdom-kathrin298.herokuapp.com/' do %>
+        <div class="project-card">
+          <img src="animal-kingdom.png" class="project-image">
+          <div class="project-description">
+            <p class="project-card-text">Animal Kingdom: Marketplace app to rent exotic animals for private events.</p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<a name="contact"></a>
+<div class="container">
+  <div class="final-cta">
+    <h1>Contact</h1>
+      <div class="contact-methods">
+        <div class="email">
+          <div class="email-icon">
+            <i class="fas fa-envelope-square" style="font-size: 60px;"></i>
+          </div>
+          <div class="email-text">
+            <h4>Email</h4>
+            <%= link_to "brandon@brandonolin.com", "mailto:brandon@brandonolin.com" %>
+          </div>
+        </div>
+        <div class="linkedin">
+          <div class="linkedin-icon">
+            <i class="fab fa-linkedin" style="font-size: 60px;"></i>
+          </div>
+          <div class="linkedin-text">
+            <h4>LinkedIn</h4>
+            <%= link_to "View My Profile", "https://www.linkedin.com/in/brandon-olin/" %>
+          </div>
+        </div>
+        <div class="location">
+          <div class="location-icon">
+            <i class="fas fa-map-marked-alt" style="font-size: 60px;"></i>
+          </div>
+          <div class="location-text">
+            <h4>Current Location</h4>
+            Buffalo, NY (willing to relocate)
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

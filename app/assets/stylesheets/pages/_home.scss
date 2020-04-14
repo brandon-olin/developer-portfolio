@@ -1,1 +1,148 @@
 // Specific CSS for your home-page
+.about-section {
+  background-color: white;
+  padding: 50px 100px;
+}
+
+.about-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px;
+  p {
+    text-align: justify;
+  }
+}
+
+.portfolio {
+  background-color: #F4F4F4;
+  padding: 100px 0;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.project-card {
+  box-shadow: 5px 5px 15px 0px rgba(128,128,128,1);
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3C4043;
+}
+
+.project-card:hover .project-description {
+  opacity: 1;
+}
+
+.project-card-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.final-cta {
+  width: 100%;
+  margin: 100px 0;
+  text-align: center;
+  h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  h4 {
+    font-size: 16px;
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+}
+
+.email {
+  display: flex;
+}
+
+.email-icon {
+  margin-right: 20px;
+}
+
+.email-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.location {
+  display: flex;
+}
+
+.location-icon {
+  margin-right: 20px;
+}
+
+.location-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.linkedin {
+  display: flex;
+}
+
+.linkedin-icon {
+  margin-right: 20px;
+}
+
+.linkedin-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
