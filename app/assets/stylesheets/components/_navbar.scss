@@ -1,0 +1,38 @@
+.navbar-lewagon {
+  justify-content: flex-end;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-lewagon {
+  // [...]
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+  .nav-link {
+    color: white !important;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.navbar-lewagon-white {
+  background-color: white;
+  .nav-link {
+    color: black !important;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+#header-top-left {
+  color: white;
+}
