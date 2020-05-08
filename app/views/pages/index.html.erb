@@ -19,7 +19,7 @@
     <div class="about-contents">
       <p>Born in the frigid tundra of Buffalo, NY, the long winters indoors left plenty of time for fiddling with technology. I showed a knack for computers and spent much of my early years building gaming rigs and learning their ins and outs.</p>
       <p>I ended up pursuing a business degree and working various jobs in the field, eventually going down the path of entrepreneurship and location independence. This culminated in 3 years spent living and working remotely in South America, Europe, and Asia.</p>
-      <p>Now that I’ve finished the Le Wagon Ruby on Rails coding bootcamp I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
+      <p>Now that I’ve finished the Le Wagon coding bootcamp and Zero-to-Mastery JavaScript course, I’m transitioning to programming as my full-time profession. I’m looking for positions anywhere in the U.S where I can make that happen!</p>
     </div>
   </div>
 </div>
@@ -28,22 +28,21 @@
   <div class="container">
     <div class="portfolio-header">
       <h2>Portfolio</h2>
-      <p>Projects completed during the Le Wagon Bootcamp and since.</p>
     </div>
     <div class="project-grid">
-      <%= link_to 'https://simple-blog-olin.herokuapp.com/' do %>
-        <div class="project-card">
-          <img src="simple-blog.png" class="project-image">
-          <div class="project-description">
-            <p class="project-card-text">Simple Blog: Basic blogging application with user auth, comments, and upvote system.</p>
-          </div>
-        </div>
-      <% end %>
       <%= link_to 'http://www.sustainable-app.com/' do %>
         <div class="project-card">
           <img src="sustainable.png" class="project-image">
           <div class="project-description">
             <p class="project-card-text">SustainABLE: Job board for entry level developers and mission driven companies.</p>
+          </div>
+        </div>
+      <% end %>
+      <%= link_to 'https://smartbrain-js.herokuapp.com/' do %>
+        <div class="project-card">
+          <img src="smartbrain.png" class="project-image">
+          <div class="project-description">
+            <p class="project-card-text">Smartbrain: Full stack React + Node.js + PostgreSQL photo face detection app.</p>
           </div>
         </div>
       <% end %>
@@ -72,13 +71,13 @@
             <%= link_to "brandon@brandonolin.com", "mailto:brandon@brandonolin.com" %>
           </div>
         </div>
-        <div class="linkedin">
-          <div class="linkedin-icon">
-            <i class="fab fa-linkedin" style="font-size: 60px;"></i>
+        <div class="resume">
+          <div class="resume-icon">
+            <i class="fas fa-file-pdf" style="font-size: 60px"></i>
           </div>
-          <div class="linkedin-text">
-            <h4>LinkedIn</h4>
-            <%= link_to "View My Profile", "https://www.linkedin.com/in/brandon-olin/" %>
+          <div class="resume-text">
+            <h4>Resume</h4>
+            <%= link_to "View My Resume", "https://drive.google.com/open?id=1gCqp4YuhbTDPdICXZP0ml1h4Q6mwO2WJ" %>
           </div>
         </div>
         <div class="location">

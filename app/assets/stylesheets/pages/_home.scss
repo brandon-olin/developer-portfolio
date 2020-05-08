@@ -33,7 +33,7 @@
 .project-card {
   box-shadow: 5px 5px 15px 0px rgba(128,128,128,1);
   width: 300px;
-  height: 200px;
+  height: 173px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -41,7 +41,7 @@
 .project-image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .project-description {
@@ -132,15 +132,15 @@
   justify-content: space-around;
 }
 
-.linkedin {
+.resume {
   display: flex;
 }
 
-.linkedin-icon {
+.resume-icon {
   margin-right: 20px;
 }
 
-.linkedin-text {
+.resume-text {
   height: 100%;
   display: flex;
   flex-direction: column;
